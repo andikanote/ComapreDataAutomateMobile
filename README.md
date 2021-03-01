@@ -1,2 +1,2 @@
-# ComapreDataAutomateMobile
- ComapreDataAutomateMobile
+# ComapreDataAutomateMobileWithKatalon
+ ComapreDataAutomateMobileWithKatalonStudio
