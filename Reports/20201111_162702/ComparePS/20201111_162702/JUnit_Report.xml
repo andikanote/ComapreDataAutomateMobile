@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ComparePS" time="5.011" tests="1" failures="0" errors="1">
+   <testsuite name="ComparePS" tests="1" failures="0" errors="1" time="5.011" timestamp="2020-11-11 16:27:10" hostname="Andika Prananto - ID-ASI-8PZWPQ2.axa-id.intraxa" id="Test Suites/ComparePS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\andika prananto\\Katalon Studio\\ComparePS\\Reports\\20201111_162702\\ComparePS\\20201111_162702"/>
+         <property name="logFiles" value="C:\\Users\\andika prananto\\Katalon Studio\\ComparePS\\Reports\\20201111_162702\\ComparePS\\20201111_162702\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andika Prananto - ID-ASI-8PZWPQ2.axa-id.intraxa"/>
+         <property name="hostAddress" value="10.47.183.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+      </properties>
+      <testcase name="Test Cases/ComparePS-1" time="4.45" classname="Test Cases/ComparePS-1" status="ERROR">
+         <error type="ERROR" message="Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605086822268.run(TempTestSuite1605086822268.groovy:37)
+Caused by: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:69)
+	... 16 more
+"/>
+         <system-out><![CDATA[2020-11-11 16:27:11 - [TEST_CASE][ERROR] - Test Cases/ComparePS-1: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605086822268.run(TempTestSuite1605086822268.groovy:37)
+Caused by: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:69)
+	... 16 more
+
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - sekarang = new java.util.Date(): null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - tgl = sekarang.format("yyyy-MM-dd"): null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - fullFlow = true: null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - strGlbDate = tgl: null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - strGlbCrash = false: null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - strGlbAlamat = false: null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - strGlbNomor = 1: null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - strGlbNumImage = 0: null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - runTime = StopWatch.createStarted(): null
+
+2020-11-11 16:27:12 - [TEST_STEP][PASSED] - getLastRow = findTestData("dt-1/dt_APK").getRowNumbers(): null
+
+2020-11-11 16:27:14 - [TEST_STEP][ERROR] - for (int excelRow : (1..1)): java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+
+2020-11-11 16:27:14 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 16:27:14 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 16:27:14 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 16:27:14 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 16:27:14 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 16:27:14 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 16:27:14 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 16:27:15 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 16:27:15 - [TEST_STEP][ERROR] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+
+2020-11-11 16:27:15 - [MESSAGE][ERROR] - java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)]]></system-out>
+         <system-err><![CDATA[2020-11-11 16:27:11 - [TEST_CASE][ERROR] - Test Cases/ComparePS-1: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605086822268.run(TempTestSuite1605086822268.groovy:37)
+Caused by: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:69)
+	... 16 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-11 16:27:10 - [TEST_SUITE][ERROR] - ComparePS: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605086822268.run(TempTestSuite1605086822268.groovy:37)
+Caused by: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:69)
+	... 16 more]]></system-out>
+      <system-err><![CDATA[2020-11-11 16:27:10 - [TEST_SUITE][ERROR] - ComparePS: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605086822268.run(TempTestSuite1605086822268.groovy:37)
+Caused by: java.io.FileNotFoundException: C:\ANDIKA\PROJECT\PS\DT PS\DATA\Compare\ExcelAPK.xlsx (The process cannot access the file because it is being used by another process)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:69)
+	... 16 more]]></system-err>
+   </testsuite>
+</testsuites>

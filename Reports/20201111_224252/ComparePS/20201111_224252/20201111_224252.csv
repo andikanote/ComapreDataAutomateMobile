@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ComparePS,,,,2020-11-11 22:43:00,2020-11-11 22:43:33,33.114s,PASSED
+,,,,,,,
+Test Cases/ComparePS-1,,,,2020-11-11 22:43:01,2020-11-11 22:43:33,32.569s,PASSED
+sekarang = new java.util.Date(),,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.014s,PASSED
+"tgl = sekarang.format(""yyyy-MM-dd"")",,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.004s,PASSED
+fullFlow = true,,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.069s,PASSED
+strGlbDate = tgl,,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.002s,PASSED
+strGlbCrash = false,,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.002s,PASSED
+strGlbAlamat = false,,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.002s,PASSED
+strGlbNomor = 1,,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.004s,PASSED
+strGlbNumImage = 0,,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.014s,PASSED
+runTime = StopWatch.createStarted(),,,,2020-11-11 22:43:02,2020-11-11 22:43:02,0.019s,PASSED
+"getLastRow = findTestData(""dt-1/dt_APK"").getRowNumbers()",,,,2020-11-11 22:43:02,2020-11-11 22:43:04,1.534s,PASSED
+for (int excelRow : (1..getLastRow)),,,,2020-11-11 22:43:04,2020-11-11 22:43:33,29.642s,PASSED

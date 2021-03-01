@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ComparePS,,,,2020-11-11 23:25:56,2020-11-11 23:27:14,1m - 17.436s,PASSED
+,,,,,,,
+Test Cases/ComparePS-1,,,,2020-11-11 23:25:57,2020-11-11 23:26:28,31.335s,PASSED
+sekarang = new java.util.Date(),,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.017s,PASSED
+"tgl = sekarang.format(""yyyy-MM-dd"")",,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.007s,PASSED
+fullFlow = true,,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.106s,PASSED
+strGlbDate = tgl,,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.003s,PASSED
+strGlbCrash = false,,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.004s,PASSED
+strGlbAlamat = false,,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.003s,PASSED
+strGlbNomor = 1,,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.004s,PASSED
+strGlbNumImage = 0,,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.004s,PASSED
+runTime = StopWatch.createStarted(),,,,2020-11-11 23:25:58,2020-11-11 23:25:58,0.023s,PASSED
+"getLastRow = findTestData(""dt-1/dt_APK"").getRowNumbers()",,,,2020-11-11 23:25:58,2020-11-11 23:26:00,1.554s,PASSED
+for (int excelRow : (1..getLastRow)),,,,2020-11-11 23:26:00,2020-11-11 23:26:28,28.497s,PASSED
+,,,,,,,
+Test Cases/ComparePS-2,,,,2020-11-11 23:26:28,2020-11-11 23:26:52,23.721s,PASSED
+sekarang = new java.util.Date(),,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.001s,PASSED
+"tgl = sekarang.format(""yyyy-MM-dd"")",,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.000s,PASSED
+fullFlow = true,,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.002s,PASSED
+strGlbDate = tgl,,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.001s,PASSED
+"strGlbStatus = """"",,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.001s,PASSED
+"strGlbKeterangan = """"",,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.001s,PASSED
+strGlbCrash = false,,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.001s,PASSED
+strGlbAlamat = false,,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.002s,PASSED
+strGlbNomor = 1,,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.000s,PASSED
+strGlbNumImage = 0,,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.000s,PASSED
+runTime = StopWatch.createStarted(),,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.001s,PASSED
+"getLastRow = findTestData(""dt-2/dt_APK"").getRowNumbers()",,,,2020-11-11 23:26:29,2020-11-11 23:26:29,0.127s,PASSED
+for (int excelRow : (1..getLastRow)),,,,2020-11-11 23:26:29,2020-11-11 23:26:52,22.711s,PASSED
+,,,,,,,
+Test Cases/ComparePS-3,,,,2020-11-11 23:26:52,2020-11-11 23:27:14,21.865s,PASSED
+sekarang = new java.util.Date(),,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.000s,PASSED
+"tgl = sekarang.format(""yyyy-MM-dd"")",,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.001s,PASSED
+fullFlow = true,,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.000s,PASSED
+strGlbDate = tgl,,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.000s,PASSED
+"strGlbStatus = """"",,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.001s,PASSED
+"strGlbKeterangan = """"",,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.000s,PASSED
+strGlbCrash = false,,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.001s,PASSED
+strGlbAlamat = false,,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.000s,PASSED
+strGlbNomor = 1,,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.001s,PASSED
+strGlbNumImage = 0,,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.000s,PASSED
+runTime = StopWatch.createStarted(),,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.001s,PASSED
+"getLastRow = findTestData(""dt-3/dt_APK"").getRowNumbers()",,,,2020-11-11 23:26:53,2020-11-11 23:26:53,0.115s,PASSED
+for (int excelRow : (1..getLastRow)),,,,2020-11-11 23:26:53,2020-11-11 23:27:14,20.891s,PASSED

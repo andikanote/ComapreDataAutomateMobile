@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ComparePS" time="13.08" tests="1" failures="0" errors="1">
+   <testsuite name="ComparePS" tests="1" failures="0" errors="1" time="13.08" timestamp="2020-11-11 15:30:17" hostname="Andika Prananto - ID-ASI-8PZWPQ2.axa-id.intraxa" id="Test Suites/ComparePS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\andika prananto\\Katalon Studio\\ComparePS\\Reports\\20201111_153007\\ComparePS\\20201111_153007"/>
+         <property name="logFiles" value="C:\\Users\\andika prananto\\Katalon Studio\\ComparePS\\Reports\\20201111_153007\\ComparePS\\20201111_153007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andika Prananto - ID-ASI-8PZWPQ2.axa-id.intraxa"/>
+         <property name="hostAddress" value="10.47.183.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+      </properties>
+      <testcase name="Test Cases/ComparePS-1" time="12.168" classname="Test Cases/ComparePS-1" status="ERROR">
+         <error type="ERROR" message="Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:74)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605083408066.run(TempTestSuite1605083408066.groovy:37)
+"/>
+         <system-out><![CDATA[2020-11-11 15:30:17 - [TEST_CASE][ERROR] - Test Cases/ComparePS-1: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:74)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605083408066.run(TempTestSuite1605083408066.groovy:37)
+
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - sekarang = new java.util.Date(): null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - tgl = sekarang.format("yyyy-MM-dd"): null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - fullFlow = true: null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - strGlbDate = tgl: null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - strGlbCrash = false: null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - strGlbAlamat = false: null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - strGlbNomor = 1: null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - strGlbNumImage = 0: null
+
+2020-11-11 15:30:20 - [TEST_STEP][PASSED] - runTime = StopWatch.createStarted(): null
+
+2020-11-11 15:30:21 - [TEST_STEP][PASSED] - getLastRow = findTestData("dt-1/dt_APK").getRowNumbers(): null
+
+2020-11-11 15:30:24 - [TEST_STEP][ERROR] - for (int excelRow : (1..getLastRow)): The supplied file was empty (zero bytes long)
+
+2020-11-11 15:30:24 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 15:30:24 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 15:30:24 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 15:30:24 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 15:30:25 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 15:30:25 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 15:30:25 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 15:30:27 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 15:30:27 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 15:30:27 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 15:30:27 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 15:30:27 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 15:30:27 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 15:30:28 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 15:30:28 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 15:30:29 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 15:30:29 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 15:30:29 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 15:30:29 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 15:30:29 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 15:30:29 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 15:30:29 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 15:30:29 - [TEST_STEP][ERROR] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): The supplied file was empty (zero bytes long)
+
+2020-11-11 15:30:29 - [MESSAGE][ERROR] - The supplied file was empty (zero bytes long)]]></system-out>
+         <system-err><![CDATA[2020-11-11 15:30:17 - [TEST_CASE][ERROR] - Test Cases/ComparePS-1: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:74)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605083408066.run(TempTestSuite1605083408066.groovy:37)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-11 15:30:17 - [TEST_SUITE][ERROR] - ComparePS: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:74)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605083408066.run(TempTestSuite1605083408066.groovy:37)]]></system-out>
+      <system-err><![CDATA[2020-11-11 15:30:17 - [TEST_SUITE][ERROR] - ComparePS: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:74)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605083408066.run(TempTestSuite1605083408066.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>

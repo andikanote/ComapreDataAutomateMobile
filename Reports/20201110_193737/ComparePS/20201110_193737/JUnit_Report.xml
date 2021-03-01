@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ComparePS" time="3.748" tests="1" failures="0" errors="1">
+   <testsuite name="ComparePS" tests="1" failures="0" errors="1" time="3.748" timestamp="2020-11-10 19:37:49" hostname="Andika Prananto - ID-ASI-8PZWPQ2.axa-id.intraxa" id="Test Suites/ComparePS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\andika prananto\\Katalon Studio\\ComparePS\\Reports\\20201110_193737\\ComparePS\\20201110_193737"/>
+         <property name="logFiles" value="C:\\Users\\andika prananto\\Katalon Studio\\ComparePS\\Reports\\20201110_193737\\ComparePS\\20201110_193737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andika Prananto - ID-ASI-8PZWPQ2.axa-id.intraxa"/>
+         <property name="hostAddress" value="10.47.183.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+      </properties>
+      <testcase name="Test Cases/ComparePS-1" time="3.216" classname="Test Cases/ComparePS-1" status="ERROR">
+         <error type="ERROR" message="Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: comparePS.ProposalASL1.ComparePS() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Integer) values: [1, 1, 1]
+Possible solutions: ComparePS(java.lang.String, int)
+"/>
+         <system-out><![CDATA[2020-11-10 19:37:49 - [TEST_CASE][ERROR] - Test Cases/ComparePS-1: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: comparePS.ProposalASL1.ComparePS() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Integer) values: [1, 1, 1]
+Possible solutions: ComparePS(java.lang.String, int)
+
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - sekarang = new java.util.Date(): null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - tgl = sekarang.format("yyyy-MM-dd"): null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - fullFlow = true: null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - strGlbDate = tgl: null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - strGlbCrash = false: null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - strGlbAlamat = false: null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - strGlbNomor = 1: null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - strGlbNumImage = 0: null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - runTime = StopWatch.createStarted(): null
+
+2020-11-10 19:37:50 - [TEST_STEP][PASSED] - getLastRow = findTestData("dt-1/dt_APK").getRowNumbers(): null
+
+2020-11-10 19:37:51 - [TEST_STEP][PASSED] - getlastRow = findTestData("dt-2/dt_APK").getRowNumbers(): null
+
+2020-11-10 19:37:52 - [TEST_STEP][ERROR] - for (int excelRow : (1..getLastRow)): No signature of method: comparePS.ProposalASL1.ComparePS() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Integer) values: [1, 1, 1]
+Possible solutions: ComparePS(java.lang.String, int)
+
+2020-11-10 19:37:52 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-10 19:37:52 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-10 19:37:52 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-10 19:37:52 - [TEST_STEP][PASSED] - dataCompareAPK2 = findTestData("dt-2/dt_APK"): null
+
+2020-11-10 19:37:52 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-10 19:37:52 - [TEST_STEP][PASSED] - strNoAPK2 = dataCompareAPK2.getValue("NO", excelRow): null
+
+2020-11-10 19:37:52 - [TEST_STEP][ERROR] - comparePS.ProposalASL1.ComparePS(strNoAPK, strNoAPK2, excelRow): No signature of method: comparePS.ProposalASL1.ComparePS() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Integer) values: [1, 1, 1]
+Possible solutions: ComparePS(java.lang.String, int)
+
+2020-11-10 19:37:52 - [MESSAGE][ERROR] - No signature of method: comparePS.ProposalASL1.ComparePS() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Integer) values: [1, 1, 1]
+Possible solutions: ComparePS(java.lang.String, int)]]></system-out>
+         <system-err><![CDATA[2020-11-10 19:37:49 - [TEST_CASE][ERROR] - Test Cases/ComparePS-1: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: comparePS.ProposalASL1.ComparePS() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Integer) values: [1, 1, 1]
+Possible solutions: ComparePS(java.lang.String, int)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-10 19:37:49 - [TEST_SUITE][ERROR] - ComparePS: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: comparePS.ProposalASL1.ComparePS() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Integer) values: [1, 1, 1]
+Possible solutions: ComparePS(java.lang.String, int)]]></system-out>
+      <system-err><![CDATA[2020-11-10 19:37:49 - [TEST_SUITE][ERROR] - ComparePS: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: comparePS.ProposalASL1.ComparePS() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Integer) values: [1, 1, 1]
+Possible solutions: ComparePS(java.lang.String, int)]]></system-err>
+   </testsuite>
+</testsuites>

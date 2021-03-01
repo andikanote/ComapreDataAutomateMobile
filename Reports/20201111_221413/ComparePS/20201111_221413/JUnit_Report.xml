@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ComparePS" time="35.617" tests="1" failures="0" errors="0">
+   <testsuite name="ComparePS" tests="1" failures="0" errors="0" time="35.617" timestamp="2020-11-11 22:14:20" hostname="Andika - DESKTOP-MGEQHS0" id="Test Suites/ComparePS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andika\\Katalon Studio\\ComparePS\\Reports\\20201111_221413\\ComparePS\\20201111_221413"/>
+         <property name="logFiles" value="C:\\Users\\Andika\\Katalon Studio\\ComparePS\\Reports\\20201111_221413\\ComparePS\\20201111_221413\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andika - DESKTOP-MGEQHS0"/>
+         <property name="hostAddress" value="192.168.0.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+      </properties>
+      <testcase name="Test Cases/ComparePS-1" time="33.701" classname="Test Cases/ComparePS-1" status="PASSED">
+         <system-out><![CDATA[2020-11-11 22:14:20 - [TEST_CASE][PASSED] - Test Cases/ComparePS-1: Test Cases/ComparePS-1
+
+2020-11-11 22:14:21 - [TEST_STEP][PASSED] - sekarang = new java.util.Date(): null
+
+2020-11-11 22:14:21 - [TEST_STEP][PASSED] - tgl = sekarang.format("yyyy-MM-dd"): null
+
+2020-11-11 22:14:21 - [TEST_STEP][PASSED] - fullFlow = true: null
+
+2020-11-11 22:14:22 - [TEST_STEP][PASSED] - strGlbDate = tgl: null
+
+2020-11-11 22:14:22 - [TEST_STEP][PASSED] - strGlbCrash = false: null
+
+2020-11-11 22:14:22 - [TEST_STEP][PASSED] - strGlbAlamat = false: null
+
+2020-11-11 22:14:22 - [TEST_STEP][PASSED] - strGlbNomor = 1: null
+
+2020-11-11 22:14:22 - [TEST_STEP][PASSED] - strGlbNumImage = 0: null
+
+2020-11-11 22:14:22 - [TEST_STEP][PASSED] - runTime = StopWatch.createStarted(): null
+
+2020-11-11 22:14:22 - [TEST_STEP][PASSED] - getLastRow = findTestData("dt-1/dt_APK").getRowNumbers(): null
+
+2020-11-11 22:14:23 - [TEST_STEP][PASSED] - for (int excelRow : (1..getLastRow)): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:23 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:23 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:23 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:23 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:23 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:24 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:24 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:24 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:24 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:25 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:25 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:25 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:25 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:25 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:25 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:26 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:26 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:26 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:26 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:27 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:27 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:27 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:27 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:28 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:28 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:28 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:28 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:28 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:28 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:28 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:28 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:28 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:28 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:29 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:29 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:29 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:29 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:29 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:30 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:30 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:30 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:30 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:30 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:31 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:31 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:31 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:31 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:31 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:32 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:32 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:32 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:32 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:32 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:32 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:33 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:33 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:33 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:33 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:33 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:33 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:34 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:34 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:34 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:34 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:34 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:35 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:35 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:35 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:35 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:35 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:35 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:36 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:36 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:36 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:36 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:36 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:36 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:37 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:37 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:37 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:37 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:37 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:37 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:38 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:38 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:38 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:38 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:38 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:38 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:39 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:39 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:39 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:39 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:39 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:39 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:40 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:40 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:40 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:40 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:40 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:40 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:41 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:41 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:41 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:41 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:41 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:41 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:41 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:42 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:42 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:42 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:42 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:42 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:42 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:42 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:43 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:43 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:43 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:43 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:43 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:43 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:43 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:44 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:44 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:44 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:44 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:44 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:45 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:45 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:45 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:45 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:45 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:45 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:45 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:46 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:46 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:46 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:46 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:46 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:46 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:47 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:47 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:47 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:47 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:47 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:47 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:47 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:47 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:48 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:48 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:48 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:48 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:48 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:48 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:49 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:49 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:49 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:49 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:49 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:49 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:50 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:50 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:50 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:50 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:50 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:52 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:52 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:52 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:52 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:52 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:52 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:53 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:53 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:53 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:53 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:53 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:14:53 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:54 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:14:54 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:14:54 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-11 22:14:20 - [TEST_SUITE][PASSED] - ComparePS: Test Cases/ComparePS-1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

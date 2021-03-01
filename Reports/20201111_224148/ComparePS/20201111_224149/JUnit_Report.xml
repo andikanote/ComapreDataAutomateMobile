@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ComparePS" time="13.142" tests="1" failures="0" errors="1">
+   <testsuite name="ComparePS" tests="1" failures="0" errors="1" time="13.142" timestamp="2020-11-11 22:42:00" hostname="Andika - DESKTOP-MGEQHS0" id="Test Suites/ComparePS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andika\\Katalon Studio\\ComparePS\\Reports\\20201111_224148\\ComparePS\\20201111_224149"/>
+         <property name="logFiles" value="C:\\Users\\Andika\\Katalon Studio\\ComparePS\\Reports\\20201111_224148\\ComparePS\\20201111_224149\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andika - DESKTOP-MGEQHS0"/>
+         <property name="hostAddress" value="192.168.0.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+      </properties>
+      <testcase name="Test Cases/ComparePS-1" time="11.801" classname="Test Cases/ComparePS-1" status="ERROR">
+         <error type="ERROR" message="Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+	at org.apache.poi.POIXMLDocumentPart.getPartFromOPCPackage(POIXMLDocumentPart.java:661)
+	at org.apache.poi.POIXMLDocumentPart.&lt;init>(POIXMLDocumentPart.java:128)
+	at org.apache.poi.POIXMLDocumentPart.&lt;init>(POIXMLDocumentPart.java:118)
+	at org.apache.poi.POIXMLDocument.&lt;init>(POIXMLDocument.java:61)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605109309419.run(TempTestSuite1605109309419.groovy:39)
+"/>
+         <system-out><![CDATA[2020-11-11 22:42:00 - [TEST_CASE][ERROR] - Test Cases/ComparePS-1: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+	at org.apache.poi.POIXMLDocumentPart.getPartFromOPCPackage(POIXMLDocumentPart.java:661)
+	at org.apache.poi.POIXMLDocumentPart.<init>(POIXMLDocumentPart.java:128)
+	at org.apache.poi.POIXMLDocumentPart.<init>(POIXMLDocumentPart.java:118)
+	at org.apache.poi.POIXMLDocument.<init>(POIXMLDocument.java:61)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605109309419.run(TempTestSuite1605109309419.groovy:39)
+
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - sekarang = new java.util.Date(): null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - tgl = sekarang.format("yyyy-MM-dd"): null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - fullFlow = true: null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - strGlbDate = tgl: null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - strGlbCrash = false: null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - strGlbAlamat = false: null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - strGlbNomor = 1: null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - strGlbNumImage = 0: null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - runTime = StopWatch.createStarted(): null
+
+2020-11-11 22:42:04 - [TEST_STEP][PASSED] - getLastRow = findTestData("dt-1/dt_APK").getRowNumbers(): null
+
+2020-11-11 22:42:08 - [TEST_STEP][ERROR] - for (int excelRow : (1..getLastRow)): OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+
+2020-11-11 22:42:08 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:42:08 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:42:08 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:42:08 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:42:08 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:42:09 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:42:09 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:42:10 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:42:10 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:42:11 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-11 22:42:11 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-11 22:42:11 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-11 22:42:11 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-11 22:42:11 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-11 22:42:11 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt-1/dt_APK"): null
+
+2020-11-11 22:42:12 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-11 22:42:12 - [TEST_STEP][PASSED] - comparePS.ProposalASL1.ComparePS(strNoAPK, excelRow): comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:42:12 - [MESSAGE][PASSED] - comparePS.ProposalASL1.ComparePS is PASSED
+
+2020-11-11 22:42:12 - [TEST_STEP][ERROR] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+
+2020-11-11 22:42:12 - [MESSAGE][ERROR] - OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.]]></system-out>
+         <system-err><![CDATA[2020-11-11 22:42:00 - [TEST_CASE][ERROR] - Test Cases/ComparePS-1: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+	at org.apache.poi.POIXMLDocumentPart.getPartFromOPCPackage(POIXMLDocumentPart.java:661)
+	at org.apache.poi.POIXMLDocumentPart.<init>(POIXMLDocumentPart.java:128)
+	at org.apache.poi.POIXMLDocumentPart.<init>(POIXMLDocumentPart.java:118)
+	at org.apache.poi.POIXMLDocument.<init>(POIXMLDocument.java:61)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605109309419.run(TempTestSuite1605109309419.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-11 22:42:00 - [TEST_SUITE][ERROR] - ComparePS: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+	at org.apache.poi.POIXMLDocumentPart.getPartFromOPCPackage(POIXMLDocumentPart.java:661)
+	at org.apache.poi.POIXMLDocumentPart.<init>(POIXMLDocumentPart.java:128)
+	at org.apache.poi.POIXMLDocumentPart.<init>(POIXMLDocumentPart.java:118)
+	at org.apache.poi.POIXMLDocument.<init>(POIXMLDocument.java:61)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605109309419.run(TempTestSuite1605109309419.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-11-11 22:42:00 - [TEST_SUITE][ERROR] - ComparePS: Test Cases/ComparePS-1 FAILED.
+Reason:
+org.apache.poi.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+	at org.apache.poi.POIXMLDocumentPart.getPartFromOPCPackage(POIXMLDocumentPart.java:661)
+	at org.apache.poi.POIXMLDocumentPart.<init>(POIXMLDocumentPart.java:128)
+	at org.apache.poi.POIXMLDocumentPart.<init>(POIXMLDocumentPart.java:118)
+	at org.apache.poi.POIXMLDocument.<init>(POIXMLDocument.java:61)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at comparePS.KeywordPS.callStatus(KeywordPS.groovy:51)
+	at comparePS.KeywordPS.invokeMethod(KeywordPS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at ComparePS-1.run(ComparePS-1:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605109309419.run(TempTestSuite1605109309419.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ComparePS" time="4.283" tests="1" failures="0" errors="0">
+   <testsuite name="ComparePS" tests="1" failures="0" errors="0" time="4.283" timestamp="2020-11-10 18:14:31" hostname="Andika Prananto - ID-ASI-8PZWPQ2.axa-id.intraxa" id="Test Suites/ComparePS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\andika prananto\\Katalon Studio\\ComparePS\\Reports\\20201110_181421\\ComparePS\\20201110_181421"/>
+         <property name="logFiles" value="C:\\Users\\andika prananto\\Katalon Studio\\ComparePS\\Reports\\20201110_181421\\ComparePS\\20201110_181421\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andika Prananto - ID-ASI-8PZWPQ2.axa-id.intraxa"/>
+         <property name="hostAddress" value="10.47.183.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+      </properties>
+      <testcase name="Test Cases/ComparePS" time="3.835" classname="Test Cases/ComparePS" status="PASSED">
+         <system-out><![CDATA[2020-11-10 18:14:32 - [TEST_CASE][PASSED] - Test Cases/ComparePS: Test Cases/ComparePS
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - sekarang = new java.util.Date(): null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - tgl = sekarang.format("yyyy-MM-dd"): null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - fullFlow = true: null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - strGlbDate = tgl: null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - strGlbStatus = "": null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - strGlbKeterangan = "": null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - strGlbCrash = false: null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - strGlbAlamat = false: null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - strGlbNomor = 1: null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - strGlbNumImage = 0: null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - strGlbMenu = "Login": null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - runTime = StopWatch.createStarted(): null
+
+2020-11-10 18:14:33 - [TEST_STEP][PASSED] - getLastRow = findTestData("dt_APK").getRowNumbers(): null
+
+2020-11-10 18:14:34 - [TEST_STEP][PASSED] - for (int excelRow : (1..2)): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-10 18:14:34 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-10 18:14:34 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-10 18:14:34 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt_APK"): null
+
+2020-11-10 18:14:34 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-10 18:14:34 - [TEST_STEP][PASSED] - comparePS.ComparePSASL.ComparePS(strNoAPK, excelRow): comparePS.ComparePSASL.ComparePS is PASSED
+
+2020-11-10 18:14:35 - [MESSAGE][PASSED] - comparePS.ComparePSASL.ComparePS is PASSED
+
+2020-11-10 18:14:35 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-10 18:14:35 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-10 18:14:35 - [TEST_STEP][PASSED] - runTime.reset(): null
+
+2020-11-10 18:14:35 - [TEST_STEP][PASSED] - runTime.start(): null
+
+2020-11-10 18:14:35 - [TEST_STEP][PASSED] - dataCompareAPK = findTestData("dt_APK"): null
+
+2020-11-10 18:14:35 - [TEST_STEP][PASSED] - strNoAPK = dataCompareAPK.getValue("NO", excelRow): null
+
+2020-11-10 18:14:35 - [TEST_STEP][PASSED] - comparePS.ComparePSASL.ComparePS(strNoAPK, excelRow): comparePS.ComparePSASL.ComparePS is PASSED
+
+2020-11-10 18:14:35 - [MESSAGE][PASSED] - comparePS.ComparePSASL.ComparePS is PASSED
+
+2020-11-10 18:14:35 - [TEST_STEP][PASSED] - comparePS.KeywordPS.callStatus(strNoAPK, "sheetAPK1", 17): comparePS.KeywordPS.callStatus is PASSED
+
+2020-11-10 18:14:36 - [MESSAGE][PASSED] - comparePS.KeywordPS.callStatus is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-10 18:14:31 - [TEST_SUITE][PASSED] - ComparePS: Test Cases/ComparePS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
